@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: system-ui;
+}
+
+
+html::-webkit-scrollbar{
+	width: 0;
+}
+
+#header{
+	background: skyblue;
+	width: auto;
+	height: 40px;
+	padding-top: 15px;
+	padding-bottom: 60px;
+}
+
+#navigation{
+	background: black;
+	background-repeat: repeat-x;
+	height: 80px;
+}
+
+.logo-link{
+	font-size: 3em;
+	top: 0px;
+	left: 78px;
+	float: left;
+	position: relative;
+	color: black;
+	text-decoration: none;
+	padding: 7.9px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+	background: skyblue;
+	user-select: none;
+}
+
+#nav_panel{
+	margin-right: 100px;
+}
+
+nav#nav_panel a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	margin-top: 31px;
+	margin-right: 40px;
+	margin-left: 40px;
+	font-size: 17px;
+	user-select: none;
+	transition-duration: 0.3s;
+}
+
+nav#nav_panel a:hover{
+	color: #778899;
+	transition-duration: 0.3s;
+}
+
+
+#main{
+	height: 520px;
+	width: auto;
+}
+
+#main-left-inf-section{
+	float: left;
+	height: 520px;
+	width: 65%;
+}
+.phys-section-data{
+	float: left;
+	width: 50%;
+	height: 60%;
+}
+
+.digit-section-data{
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+
+.digit-information-links{
+	text-decoration: none;
+	color: #778899;
+}
+
+.digit-information-links:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.contact-inf-main-h{
+	padding-left: 280px;
+	margin-bottom: 40px;
+	user-select: none;
+	padding-top: 14px;
+	color: #778899;
+}
+
+.contact-inf-other-h{
+	color: #778899;
+	user-select: none;
+	padding-bottom: 5px;
+	padding-left: 140px;
+}
+
+.main-left-texts{
+	padding-left: 100px;
+	padding-top: 5px;
+}
+
+#social-media-blocks-links{
+	float: left;
+	height: 500px;
+	width: auto;
+	user-select: none;
+	border-left: 2px dotted dimgray;
+	padding-left: 60px;
+	margin-top: -38px;
+}
+
+.social-media-link-block{
+	background: whitesmoke;
+	height: 25%;
+	width: 420px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 4px solid whitesmoke;
+}
+
+.social-media-link-block a{
+	text-decoration: none;
+	color: gray;
+	padding-top: 10px;
+	padding-right: 10px;
+	float: right;
+}
+
+.SM-block-header{
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #778899;
+}
+
+.SM-block-text{
+	padding-left: 35px;
+	padding-right: 5px;
+}
+
+#footer{
+	width: auto;
+	height: 17px;
+	padding-top: 60px;
+}
+
+#copy_inf{
+	height: 17px;
+	width: auto;
+	background: lightgray;
+	background-repeat: repeat-x;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.copyright_text{
+	color: black;
+	font-size: 0.8em;
+	text-align: center;
+	position: relative;
+	top: -7px;
+	position: relative;
+	left: -500px;
+}
